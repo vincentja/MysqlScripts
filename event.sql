@@ -12,7 +12,7 @@ CREATE EVENT event_clear_hashs
     ON SCHEDULE
       EVERY 360 SECOND
     DO
-      delete from wn_tv.hntv_hash;
+      delete from images.hashs;
       
  show events\G
  -- 206 53940 条记录，15:53
